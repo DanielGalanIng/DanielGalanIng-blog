@@ -1,3 +1,4 @@
 *.jpg
 *.png 
-/assets/
+assets/
+*DS_Store
