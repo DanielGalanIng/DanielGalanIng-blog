@@ -32,6 +32,11 @@ a {
  right: 0;
 }
 
+.grid-container {
+	max-width: 900px;
+	margin: auto;
+}
+
 header {
  width: 100%;
  height: 140px;
@@ -153,6 +158,7 @@ nav .profile-link a {
 
 .blogs-main-news h3 {
  margin: 20px 0;
+	font-size: 2.0rem;
 }
 
 .blogs-news-img-container {
@@ -169,6 +175,8 @@ nav .profile-link a {
 
 .blogs-news-info-container h2 {
  margin: 25px 0;
+	font-weight: 700;
+	font-size: 1.8rem;
 }
 
 .blogs-news-info-container p {
@@ -185,6 +193,7 @@ nav .profile-link a {
  text-align: center;
  grid-row: 1;
  margin-bottom: 10px;
+	font-size: 1.8rem;
 }
 
 .blogs-button {
@@ -210,6 +219,7 @@ nav .profile-link a {
 
 .blogs-posts-container .post-container h4 {
  margin: 10px 0;
+	font-size: 1.4rem;
 }
 
 .blogs-posts-container .post-container p {
@@ -232,3 +242,59 @@ footer p {
  text-align: center;
  color: white;
 }
+
+.blogpost-img-container {
+	padding: 0 50px 40px;
+}
+
+.blogpost-img-container figure img {
+	width: 100%;
+}
+
+.blogpost-main-container {
+	padding: 0 50px 40px;
+}
+
+.blogpost-main-container h3 {
+	border-bottom: 1px solid grey;
+	padding-bottom: 20px;
+	font-size: 1.4rem;
+}
+
+.blogpost-main-container h1 {
+	font-size: 2.8rem;
+	padding: 20px 0;
+}
+
+.blogpost-main-container p {
+	padding: 10px 0;
+}
+
+.contact-main-container {
+	width: 100%;
+	min-height: 250px;
+	background-color: #e6e9ed;
+	text-align: center;
+	padding-bottom: 50px;
+}
+.contact-main-container div {
+	display: inline-block;
+	width: 49.5%;
+	height: 100%;
+}
+.contact-main-container div a {
+	border-bottom: 1px solid black;
+	padding-bottom: 5px;
+}
+
+.contact-main-container div p {
+	margin-top: 25px;
+}
+.contact-main-container .contact-left, .contact-right {
+	text-align: initial;
+	margin-top: 85px;
+}
+.contact-main-container img {
+	width: 100px;
+}
+
