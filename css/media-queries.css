@@ -25,7 +25,7 @@
   display: block;
  }
 
- .blogs-posts-container {
+ .blogs-posts-container, .blogs-news-container {
   padding: 0 30px;
  }
 }
