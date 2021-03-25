@@ -24,6 +24,10 @@
  .profile-main-container .profile-container {
   display: block;
  }
+
+ .grid-container {
+  min-width: 300px;
+ }
 }
 
 @media (max-width: 600px){
